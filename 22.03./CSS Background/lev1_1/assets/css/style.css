@@ -1,0 +1,12 @@
+section{
+    background-color: linen;
+}
+
+h1{
+    background-color: lightblue;
+}
+
+article{
+    background-image: url("https://source.unsplash.com/random/");
+    background-repeat: no-repeat;
+}

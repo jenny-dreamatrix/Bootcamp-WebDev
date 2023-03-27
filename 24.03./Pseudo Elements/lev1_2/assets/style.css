@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: "Montserrat";
+}
+
+body p::first-line{
+    text-transform:uppercase;
+}
+
+body p::first-letter{
+    color: #00ced1;
+    font-size: 40px;
+}
+
+h1,
+h2,
+h3{
+    color: #2e8b57;
+}
+
+h3::selection{
+color: #c71585;
+background-color: #a020f0;
+}
+
+div{
+    font-size: 24px;
+}
+
+h1::before{
+    content: "Hi!";
+    color: #32cd32;
+}
+
+h2::after{
+    content: "!";
+    color: #c71585;
+}

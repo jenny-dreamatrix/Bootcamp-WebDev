@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./Poppins-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+main div {
+  height: 700px;
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.index-div {
+  background-image: url(https://images.unsplash.com/photo-1503435980610-a51f3ddfee50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+p{
+border: 1px solid black;
+border-radius: 20px;
+height: 50px;
+width: 200px;
+text-align: center;
+margin: auto;
+margin-top: 30px;
+padding: 10px;
+}
+
+
+
+

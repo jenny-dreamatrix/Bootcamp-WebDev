@@ -1,0 +1,39 @@
+ul {
+  width: 250px;
+  margin: auto;
+}
+
+ul li:nth-of-type(3n + 3) {
+  color: #311b92;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+ul li:nth-of-type(5n + 5) {
+  background-color: #fff176;
+}
+
+ul li:nth-of-type(even) {
+  text-decoration: underline;
+}
+
+ul li:nth-of-type(odd) {
+  list-style-type: square;
+}
+
+ul li:nth-of-type(7n + 7) {
+  font-size: 1.6em;
+}
+
+ul li:first-child {
+  color: #e53935;
+}
+
+ul li:nth-of-type(4n + 4) {
+  letter-spacing: 6px;
+}
+
+ul li:nth-of-type(13),
+ul li:nth-of-type(26) {
+  background-color: #ff8a80;
+}

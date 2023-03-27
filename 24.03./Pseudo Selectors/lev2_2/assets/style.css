@@ -1,0 +1,59 @@
+h3:hover {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #ef5350;
+}
+
+ul li:nth-of-type(1) {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4e342e;
+}
+
+ul li:nth-of-type(2) {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #689f38;
+}
+
+ul li:nth-of-type(3) {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #ef5350;
+}
+
+section p:nth-of-type(1) {
+  color: #999;
+}
+
+p {
+  font-size: 26px;
+}
+
+section p:last-child {
+  font-size: 20px;
+}
+
+p:nth-of-type(even) {
+  color: #0277bd;
+}
+
+button {
+  background-image: linear-gradient(red, yellow);
+  width: 250px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 24px;
+  display: block;
+  margin: auto;
+  color: white;
+}
+
+button:hover {
+  color: black;
+  background-image: linear-gradient(blue, yellow);
+  font-size: 28px;
+}
+
+button:active{
+    background-image: linear-gradient(pink, blue);
+    color: #ef5350;
+}

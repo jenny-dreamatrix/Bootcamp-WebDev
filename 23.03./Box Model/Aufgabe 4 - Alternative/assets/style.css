@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./Poppins-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+main div {
+
+  margin-top: 50px;
+  padding: 50px;
+
+}
+
+.index-div {
+  background-image: url(https://images.unsplash.com/photo-1503435980610-a51f3ddfee50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  border: 1px solid black;
+  border-radius: 30px;
+  height: 700px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  /* wenn ich text-align: center; in dem div anwende, dann gilt das auch für alle Inhalte des divs! also auch für h1 und a  */
+}
+
+
+h1 {
+  /* margin-bottom: 30px; */
+  font-size: 28px;
+  text-align: center;
+}
+
+
+ul {
+  /* margin-top: 30px; */
+  /* padding: 0 50px; */
+}
+
+
+a{
+border: 1px solid black;
+border-radius: 20px;
+height: 50px;
+width: 200px;
+padding: 10px;
+}
+
+
+section {
+  background-color: rgb(134, 191, 134);
+  height: 700px;
+  width: 500px;
+  margin: auto;
+  /* margin-top: 50px; */
+  padding: 0 50px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+img {
+  box-shadow: 2px 2px 10px black;
+  width: 100%;
+  border-radius: 30px;
+  /* margin-top: 40px; */
+}
+
+

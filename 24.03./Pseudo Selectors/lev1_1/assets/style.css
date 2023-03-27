@@ -1,0 +1,30 @@
+a{
+    display: block;
+    font-size: 30px;
+}
+
+
+/* :link (für nicht besuchte Links) */
+/* :visited (für besuchte Links) */
+/* a:hover MUSS nach :link und a:visited im CSS definiert werden, um zu funktionieren! 
+a:active MUSS nach a:hover im CSS definiert werden, um zu funktionieren! */
+
+
+a:link{
+    color: purple;
+}
+
+a:visited{
+    color: #FCB941;
+}
+
+a:hover{
+    background-color: #7E3661;
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    font-size: 3em;
+}
+

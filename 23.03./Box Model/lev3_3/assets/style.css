@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Cinzel;
+  src: url(./Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./Poppins-Medium.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cinzel";
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  color: gray;
+}
+
+section:nth-of-type(1) {
+  background-image: url(./samuel-ferrara-1527pjeb6jg-unsplash.jpg);
+  height: 600px;
+  padding: 270px;
+  margin-bottom: 80px;
+}
+
+header {
+  padding-left: 50px;
+  padding-top: 15px;
+  height: 50px;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+div p {
+  font-family: "Poppins";
+  font-size: 16px;
+  text-align: center;
+  padding: 0 100px;
+  margin-bottom: 77px;
+}
+
+article {
+  padding: 0 320px;
+  margin-bottom: 85px;
+}
+
+img {
+  width: 360px;
+  height: 202px;
+}
+
+img:nth-of-type(2),
+img:nth-of-type(3) {
+  margin-left: 80px;
+}
+
+p {
+  font-family: "Poppins";
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 320px;
+  margin-bottom: 10px;
+}
+
+p:nth-of-type(6) {
+  margin-bottom: 125px;
+}
+
+h4 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+span{
+    color: red;
+}

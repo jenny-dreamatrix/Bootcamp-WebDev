@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin: auto;
+    margin-top: 200px;
+    border: 1px solid black;
+    width: 800px;
+    height: 200px;
+    padding: 25px;
+}
+
+div{
+    background-color: aquamarine;
+    width: 700px;
+    height: 150px;
+    margin: auto;
+    /* margin-top: 25px; */
+    border: 10px solid black;
+}
+
+p{
+    font-size: 24px;
+    padding: 30px;
+}
