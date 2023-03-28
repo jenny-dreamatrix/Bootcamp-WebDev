@@ -15,21 +15,6 @@ p{
     font-family: "Merriweather";
 }
 
-
-section{
-    background: url(./rohit-tandon-9wg5jCEPBsw-unsplash.jpg) no-repeat center;
-    background-size: cover;
-    height: 100vh;
-    padding: 5%;
-}
-
-article{
-    padding: 2%;
-    margin: 0 100px;
-    border-radius: 5rem;
-    background-color: rgba(246, 246, 246, 0.5);
-}
-
 h1{
     font-size: 2rem;
     text-shadow: 3px 3px 10px rgb(53, 53, 53);
@@ -53,3 +38,19 @@ p{
     text-align: center;
     margin-bottom: 6vh;
 }
+
+section{
+    background: url(./rohit-tandon-9wg5jCEPBsw-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    padding: 5%;
+}
+
+article{
+    padding: 2%;
+    margin: 0 100px;
+    border-radius: 5rem;
+    background-color: rgba(246, 246, 246, 0.5);
+}
+
+
