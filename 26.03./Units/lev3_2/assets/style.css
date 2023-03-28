@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background: url(./jeremy-bishop-dR_q93lfaTw-unsplash.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 15rem;
+  color: rgba(255, 255, 255, 0.742);
+  margin-top: 18vh;
+  margin-bottom: -25px;
+}
+
+h2 {
+  font-size: 14px;
+  color: white;
+  padding: 10px 0;
+}
+
+h3 {
+  font-size: 34px;
+  color: rgba(255, 255, 255, 0.727);
+  margin-bottom: 2vh;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.821);
+  margin-bottom: 6vh;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.798);
+  padding: 1.2vh 2vw;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1.2vh 2vw;
+  border: 2px solid white;
+}

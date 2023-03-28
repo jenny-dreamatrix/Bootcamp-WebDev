@@ -1,0 +1,53 @@
+/* html{
+    font-size: 62.5%;
+} */
+
+
+li{
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+ul{
+    padding-inline-start: 1.2em;
+
+}
+
+.snake li,
+.dog li,
+.cat li,
+.parrot li,
+.lizzard li{
+    list-style:none;
+}
+
+.snake li::before {
+    content: '🐍 ';
+  }
+.dog li::before {
+    content: '🐶 ';
+  }
+.cat li::before {
+    content: '🐱 ';
+  }
+.parrot li::before {
+    content: '🦆 ';
+  }
+.lizzard li::before {
+    content: '🦎 ';
+  }
+
+section{
+    border: 3px solid black;
+    width: 70vw;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+    width: 70vw;
+}
