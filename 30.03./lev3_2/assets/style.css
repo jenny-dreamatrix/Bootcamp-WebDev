@@ -1,0 +1,132 @@
+@font-face {
+  font-family: Lato;
+  src: url(./Lato-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+a,
+p {
+  font-family: "Lato";
+}
+
+h1,
+h2,
+a,
+p {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* navbar */
+
+img {
+  height: 30%;
+  margin-right: 10px;
+  margin-left: 70px;
+}
+
+h1 {
+  display: inline;
+  font-size: 2.4rem;
+}
+
+.nav-left a,
+.nav-right a {
+  font-size: 1.2rem;
+  margin: 0 25px;
+  text-decoration: none;
+}
+
+.nav-right {
+  margin-right: 50px;
+}
+
+.nav-left {
+  margin-left: 30px;
+}
+
+header {
+  height: 60px;
+  padding-top: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nav-group-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* main */
+
+main {
+  background-color: #d9e8e5;
+  height: 200vh;
+  padding-top: 15vh;
+}
+
+article {
+  height: 220px;
+  width: 345px;
+  text-align: right;
+  padding: 205px 5px 0 0;
+}
+
+/* bilder einfügen */
+
+article:nth-of-type(1) {
+  background: url(./ring001.png) no-repeat center;
+  background-size: cover;
+}
+article:nth-of-type(2) {
+  background: url(./ring002.png) no-repeat center;
+  background-size: cover;
+}
+article:nth-of-type(3) {
+  background: url(./ring003.png) no-repeat center;
+  background-size: cover;
+}
+article:nth-of-type(4) {
+  background: url(./ring004.png) no-repeat center;
+  background-size: cover;
+}
+article:nth-of-type(5) {
+  background: url(./ring005.png) no-repeat center;
+  background-size: cover;
+}
+article:nth-of-type(6) {
+  background: url(./ring006.png) no-repeat center;
+  background-size: cover;
+}
+
+/* flexbox für galerie */
+
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 5vh;
+  padding-left: 5vw ;
+}
+
+.main-wrapper{
+    width: 79vw;
+    margin: auto;
+}
