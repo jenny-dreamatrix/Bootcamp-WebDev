@@ -1,0 +1,129 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url(./RobotoSlab-VariableFont_wght.ttf);
+}
+
+:root{
+    --first-color:rgb(229, 229, 229);
+    --second-color:rgb(40, 102, 102);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+p,
+label,
+input{
+    font-family:"RobotoSlab";
+}
+
+h1{
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    margin: 0 0 5px 0;
+}
+
+h2{
+    font-size: 20px;
+    color: var(--second-color);
+    margin: 0 0 5px 0;
+}
+
+p{
+    font-size: 12px;
+    color: white;
+}
+
+label{
+    display: block;
+    font-size: 12px;
+    color: grey;
+}
+
+/* box */
+
+section{
+    width: 450px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px var(--first-color);
+}
+
+.head-art{
+    background-color: var(--second-color);
+    border-radius: 10px 10px 0 0 ;
+    height: 90px;
+    padding: 20px 20px;
+}
+
+.body-art{
+    padding: 20px;
+}
+
+.grey-form{
+    background-color: var(--first-color);
+    height: 150px;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: 0 0 10px 0;
+}
+
+/* input felder */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"]{
+width: 100%;
+height: 25px;
+margin: 0 0 10px 0;
+border: none;
+border-radius: 5px;
+box-shadow: 0px 2px 3px rgb(205, 205, 205) inset;
+}
+
+input[type="submit"]{
+    width: 80px;
+    height: 30px;
+    background-color: var(--second-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 0 90px 0 0;
+}
+
+label[for="terms"]{
+    display: inline;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(25, 66, 66);
+}
+
+/* zahlen */
+
+h2::before{
+    padding: 1px 10px;
+    color: white;
+    background-color: var(--second-color);
+    border-radius: 30px;
+    margin: 0 5px 0 -35px;
+}
+
+h2:nth-of-type(1):before{
+    content: "1";
+}
+
+h2:nth-of-type(2):before{
+    content: "2";
+}
+
+h2:nth-of-type(3):before{
+    content: "3";
+}
