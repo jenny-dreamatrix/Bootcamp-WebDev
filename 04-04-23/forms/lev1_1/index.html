@@ -8,27 +8,23 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <section>
       <form>
-        <label for="vorname">Name *</label>
+        <label for="vorname">Name <span>*</span></label>
+        <div>
         <input id="vorname" placeholder="Vorname" required type="text" />
         <input placeholder="Nachname" required type="text" />
-
-        <label for="email">Email *</label>
+      </div>
+        <label for="email">Email <span>*</span></label>
         <input id="email" required type="email" />
-
         <label for="thema">Thema</label>
         <select id="thema">
           <option value="advertise">Advertise</option>
           <option value="partnership">Partnership</option>
           <option value="general">General</option>
         </select>
-
-        <label for="nachricht">Nachricht *</label>
+        <label for="nachricht">Nachricht <span>*</span></label>
         <textarea required id="nachricht"></textarea>
-
         <input type="submit" value="Submit" />
       </form>
-    </section>
   </body>
 </html>
