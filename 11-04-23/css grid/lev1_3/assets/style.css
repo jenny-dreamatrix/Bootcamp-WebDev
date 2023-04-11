@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    padding: 20px;
+}
+
+header{
+    background-color: blue;
+    grid-column: 1 / span 12;
+    margin: 0 0 2px 0;
+}
+
+aside{
+    background-color: green;
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 10;
+    margin: 0 2px 2px 0;
+}
+
+main{
+    background-color: red;
+    grid-column: 5 / span 12;
+    grid-row: 2 / span 10;
+    margin: 0 0 2px 0;
+}
+
+footer{
+    background-color: purple;
+    grid-column: 1 / span 12;
+}
