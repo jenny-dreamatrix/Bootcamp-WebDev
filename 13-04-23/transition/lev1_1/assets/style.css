@@ -1,0 +1,15 @@
+section {
+  margin: 200px auto;
+  width: 40vw;
+}
+
+div {
+  background-color: red;
+  height: 50px;
+  width: 10%;
+  transition: all 1.5s;
+}
+
+div:hover {
+  width: 100%;
+}

@@ -1,0 +1,37 @@
+section {
+  background-color: blanchedalmond;
+  height: 100px;
+  width: 45vw;
+  margin: 200px auto;
+  position: relative;
+}
+
+.ball1 {
+  background-color: red;
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: all 1s;
+}
+
+.ball2 {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: fixed;
+  top: 250px;
+  left: 550px;
+  transition: all 1s 0.8s;
+}
+
+.ball1:active {
+  left: 80px;
+}
+
+.ball1:active .ball2 {
+  left: 850px;
+}

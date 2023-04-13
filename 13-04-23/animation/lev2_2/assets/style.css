@@ -1,0 +1,36 @@
+section {
+  height: 100vh;
+}
+
+div {
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+  animation: ball 6s infinite;
+}
+
+@keyframes ball {
+  0%,
+  100% {
+    background-color: red;
+  }
+
+  25% {
+    background-color: yellow;
+    transform: translate(90vw, 0vh);
+  }
+
+  50% {
+    background-color: green;
+    transform: translate(90vw, 90vh);
+  }
+
+  75% {
+    background-color: blue;
+    transform: translate(0vw, 90vh);
+  }
+}
+
+div:hover {
+  animation-play-state: paused;
+}

@@ -1,0 +1,16 @@
+section{
+    padding: 100px 200px;
+}
+
+div{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    transition: all 1.5s;
+}
+
+div:hover{
+    transform: scale(2) rotate(90deg);
+    transform-origin: 0% 100%;
+}

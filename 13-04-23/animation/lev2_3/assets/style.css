@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  background-color: rgb(131, 129, 129);
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  width: 40vw;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+
+@keyframes shadow {
+  0%,
+  100% {
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 22px 70px 4px;
+  }
+  33% {
+    box-shadow: rgba(144, 30, 30, 0.7) 0px 22px 70px 4px;
+  }
+  66% {
+    box-shadow: rgba(27, 41, 170, 0.7) 0px 22px 70px 4px;
+  }
+}
+
+img:hover {
+  animation: shadow 2s infinite;
+}
