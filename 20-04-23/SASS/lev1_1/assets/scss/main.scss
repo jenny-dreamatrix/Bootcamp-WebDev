@@ -1,0 +1,53 @@
+$twitter:#1da1f2;
+$behance:#1769ff;
+$facebook:#1877f2;
+$vimeo:#1ab7ea;
+$snapchat:#fffc00;
+$airbnb:#fd5c63;
+$amazon:#ff9900;
+$android:#a4c639;
+$stackoverflow:#f48024;
+$ubuntu:#dd4814;
+$github:#4078c0;
+$javascript:#f7df1e;
+
+main{
+    i{
+        &:nth-of-type(1){
+            color:$twitter ;
+        }
+        &:nth-of-type(2){
+            color:$behance ;
+        }
+        &:nth-of-type(3){
+            color:$facebook ;
+        }
+        &:nth-of-type(4){
+            color:$vimeo ;
+        }
+        &:nth-of-type(5){
+            color:$snapchat ;
+        }
+        &:nth-of-type(6){
+            color:$airbnb ;
+        }
+        &:nth-of-type(7){
+            color:$amazon ;
+        }
+        &:nth-of-type(8){
+            color:$android ;
+        }
+        &:nth-of-type(9){
+            color:$stackoverflow ;
+        }
+        &:nth-of-type(10){
+            color:$ubuntu ;
+        }
+        &:nth-of-type(11){
+            color:$github ;
+        }
+        &:nth-of-type(12){
+            color:$javascript ;
+        }
+    }
+}

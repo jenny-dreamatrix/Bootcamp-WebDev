@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 6rem;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 1.5rem;
+}
+header h1 {
+  font-size: 1rem;
+}
+header h2 {
+  font-size: 1rem;
+}
+
+.nav_links {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 255, 0.514);
+}
+.nav_links a {
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+main .section_text {
+  margin: 1rem;
+}
+main .section_text h3 {
+  text-align: center;
+}
+main .section_images {
+  margin: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+main .section_images img {
+  height: 12rem;
+  width: 18rem;
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.aside {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 1rem;
+}
+.aside aside {
+  border: 0.2rem solid rgba(0, 0, 255, 0.678);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  height: 5rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 255, 0.678);
+}
+.footer .footer_links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .section_images {
+    flex-flow: row wrap;
+  }
+  .section_text {
+    width: 70%;
+  }
+  .aside {
+    flex-flow: row wrap;
+  }
+  aside {
+    width: 45%;
+    margin: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

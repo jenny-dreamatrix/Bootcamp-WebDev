@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(57deg, #ffb342 12.5%, #46edfc 12.5%, #46edfc 25%, #f55a5a 25%, #f55a5a 37.5%, #8d30ff 37.5%, #8d30ff 50%, #ffb342 50%, #ffb342 62.5%, #46edfc 62.5%, #46edfc 75%, #f55a5a 75%, #f55a5a 87.5%, #8d30ff 87.5%, #8d30ff 100%);
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

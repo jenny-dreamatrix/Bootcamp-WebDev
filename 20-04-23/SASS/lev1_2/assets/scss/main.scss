@@ -1,0 +1,107 @@
+@mixin flex{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+@mixin flex600{
+    flex-flow: row wrap;
+}
+
+$space1: 1rem;
+$background-nav: rgba(0, 0, 255, 0.514);
+$background-footer:rgba(0, 0, 255, 0.678);
+$border:0.2rem solid rgba(0, 0, 255, 0.678);
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 6rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1.5rem;
+    h1{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+}
+
+.nav_links{
+    margin: $space1 0;
+    display: flex;
+    justify-content: center;
+    background-color: $background-nav;
+    a{
+        padding: $space1;
+        text-decoration: none;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+main{
+    @include flex;
+    align-items: center;
+    .section_text{
+        margin: $space1;
+        h3{
+            text-align: center;
+        }
+    }
+    .section_images{
+        margin: $space1;
+        @include flex;
+        align-items: center;
+        img{
+            height: 12rem;
+            width: 18rem;
+            margin: 0 0.5rem 1rem 0.5rem
+        }
+    }
+}
+
+.aside{
+    @include flex;
+    margin: $space1;
+    aside{
+        border: $border;
+        padding: $space1;
+        margin-bottom: $space1;
+    }
+}
+
+.footer {
+    height: 5rem;
+    margin-top: $space1;
+    background-color: $background-footer;
+    .footer_links{
+        display: flex;
+        justify-content: center;
+        margin-bottom: $space1;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .section_images{
+        @include flex600;
+    }
+
+    .section_text {
+        width: 70%;
+    }
+    .aside{
+        @include flex600;
+    }
+    aside{
+        width: 45%;
+        margin: 0.5rem;
+    }
+}

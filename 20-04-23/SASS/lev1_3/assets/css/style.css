@@ -1,0 +1,33 @@
+@keyframes move {
+  0% {
+    transform: translateX(0);
+    background-color: red;
+  }
+  50% {
+    transform: translateX(500px);
+    background-color: aqua;
+  }
+  100% {
+    transform: translateX(0);
+    background-color: red;
+  }
+}
+.container div {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.container div:nth-of-type(1) {
+  background-color: yellow;
+  animation: move all 1s infinite ease-in-out;
+}
+.container div:nth-of-type(2) {
+  background-color: red;
+  animation: move all 1s infinite ease-in-out;
+}
+.container div:nth-of-type(3) {
+  background-color: blue;
+  animation: move all 1s infinite ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */

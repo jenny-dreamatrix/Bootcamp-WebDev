@@ -1,0 +1,49 @@
+@mixin ball{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+@mixin color($color){
+    background-color: $color;
+}
+
+@mixin animation{
+    animation: move all 1s infinite ease-in-out;
+}
+
+@keyframes move {
+    0%{ 
+        transform: translateX(0);
+        background-color: red;
+    }
+    50%{
+        transform: translateX(500px);
+        background-color: aqua;
+    }
+    100%{
+        transform: translateX(0);
+        background-color: red;
+    }
+}
+
+
+
+
+.container{
+    div{
+         @include ball;
+         &:nth-of-type(1){
+            @include color(yellow);
+            @include animation;
+         }
+         &:nth-of-type(2){
+            @include color(red);
+            @include animation;
+         }
+         &:nth-of-type(3){
+            @include color(blue);
+            @include animation;
+         }
+    }
+}
