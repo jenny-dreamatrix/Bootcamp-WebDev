@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-size: 35px;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+section {
+  height: 100vh;
+  background: linear-gradient(45deg, pink, blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  width: 20vw;
+  border: 3px solid black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 70px;
+  margin: 5px 0;
+}
+
+div {
+  width: 10vw;
+}
