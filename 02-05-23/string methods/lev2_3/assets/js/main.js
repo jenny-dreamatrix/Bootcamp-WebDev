@@ -26,8 +26,8 @@ function highlight(){
         console.log(article.innerHTML);  
 
         // alle search Ergebnisse ersetzen und in der Konsole überprüfen ob die Änderungen übernommen wurden
-        // let replaced = article.innerHTML.replaceAll(search, addSpan);
-        // console.log(replaced);
+        let replaced = article.innerHTML.replaceAll(search, addSpan);
+        console.log(replaced);
 
         // das innerHTML überschreiben
         article.innerHTML = article.innerHTML.replaceAll(search, addSpan);
