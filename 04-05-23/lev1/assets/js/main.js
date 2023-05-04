@@ -1,4 +1,3 @@
-
 // lev 1_1
 
 const PI = Math.PI;
@@ -33,12 +32,3 @@ console.log(randomNum1_10);
 
 const randomNum1_100 = Math.floor(Math.random()* 100+1);
 console.log(randomNum1_100);
-
-// lev 2_1
-
-const roundTo = (Zahl, Genauigkeit) => {
-    console.log(Zahl.toFixed(Genauigkeit));
-}
-
-roundTo(6.273445, 4);
-roundTo(3.1415926535, 5);
