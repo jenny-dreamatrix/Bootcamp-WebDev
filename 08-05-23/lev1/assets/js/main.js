@@ -76,7 +76,7 @@ let reise = ["Brasilien", "Bali", "Island", "Kroatien"];
 
 console.log(reise);
 
-console.log(reise.slice(0, 1), reise.slice(2,3));
+console.log(reise.slice(0, 1), reise.slice(2, 3));
 
 // lev 1_10
 
@@ -90,3 +90,5 @@ console.log(split2);
 
 let split3 = text.split(".");
 console.log(split3);
+
+console.log(text);
