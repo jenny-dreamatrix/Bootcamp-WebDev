@@ -73,6 +73,9 @@ let checkNumber = [
     78
 ];
 
+// entweder so:
+// Funktion schreiben für ein Element a
+
 const rechnung = (a) => {
     if (a % 3 === 0){
         console.log(a + 100);
@@ -82,9 +85,24 @@ const rechnung = (a) => {
     }
 }
 
+// Funktion für jedes Element des Arrays anwenden und als neues Array speichern
 let checkNumberNew = checkNumber.map(rechnung);
+// altes  und neues Array zum Vergleich in Konsole ausgeben
 console.log(checkNumber);
 console.log(checkNumberNew);
+
+// oder so:
+// für jedes Element des Arrays folgende Funktion ausführen und das alles in einem neuen Array speichern
+let neuesArray = checkNumber.map((a) => {
+    if (a % 3 === 0){
+        console.log(a + 100);
+        return a + 100;
+    } else {
+        return a;
+    }
+});
+
+console.log(neuesArray);
 
 
 // lev 1_6
@@ -119,10 +137,8 @@ const bearbeitung = (dateiname) => {
 }
 
 // Funktion für jedes Element anwenden
-
 album2.map(bearbeitung);
 
 // als neues Array speichern
-
 let albumNew = album2.map(bearbeitung);
 console.log(albumNew);

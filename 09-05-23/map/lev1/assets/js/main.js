@@ -63,6 +63,11 @@ let zwischenergebnis = array.map(rechnen);
 console.log(zwischenergebnis);
 console.log(zwischenergebnis.sort((a, b) => a - b));
 
+// oder so:
+
+// let kurzeForm = array.map((a) => {return a * 2;}).sort((a, b) => a - b);
+// console.log(kurzeForm);
+
 
 // lev 1_4
 
@@ -76,3 +81,13 @@ return b;
 
 let celsius = fahrenheit.map(umrechnungCelsius);
 console.log(celsius);
+
+// oder so:
+
+// let celsiusKurz = fahrenheit.map((a) => {
+//   let b = Math.round((a - 32) / 1.8);
+//   console.log(b);
+//   return b;
+// })
+
+// console.log(celsiusKurz);

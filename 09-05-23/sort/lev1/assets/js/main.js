@@ -1,6 +1,4 @@
-
 //  lev 1_1
-
 
 let languages = [
     "JavaScript",
@@ -24,6 +22,8 @@ const sortierung = () => {
 sortierung();
 console.log(languages);
 
+// unnötig hier eine extra Funktion zu schreiben..
+
 //  lev 1_2
 
 const sortierung2 = () => {
@@ -32,6 +32,9 @@ languagesReverse = languages.sort().reverse();
   
 sortierung2();
 console.log(languagesReverse);
+
+// geht auch kürzer ohne die Funktion
+// console.log(languages.sort().reverse());
 
 //  lev 1_3
 
