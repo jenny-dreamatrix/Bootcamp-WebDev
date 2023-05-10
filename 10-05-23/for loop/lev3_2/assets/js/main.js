@@ -4,7 +4,7 @@ let numArr = [5, 22, 15, 100, 55];
 
 numArr.forEach((elm) => {
 
-    for (let i = 2; i <= 100; i++){
+    for (let i = 2; i <= elm; i++){
         
         if (elm % i === 0 && elm != i){
             let ergebnis = elm / i;
