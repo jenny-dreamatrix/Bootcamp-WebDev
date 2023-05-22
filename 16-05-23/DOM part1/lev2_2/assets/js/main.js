@@ -3,9 +3,6 @@ const keyOutput = document.querySelector(".key-output");
 const keycodeOutput = document.querySelector(".keycode-output");
 const codeOutput = document.querySelector(".code-output");
 
-
-
-
 const app = () => {
   let key = event.key;
   let keycode = event.keyCode;
@@ -15,5 +12,3 @@ const app = () => {
   codeOutput.innerHTML = code;
   keycodeOutput.innerHTML = keycode;
 }
-
-

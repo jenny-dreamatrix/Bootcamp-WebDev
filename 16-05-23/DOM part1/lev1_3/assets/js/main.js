@@ -19,7 +19,6 @@ const output = document.querySelector("output");
 // console.log({nextElementSiblingBtn}, {previousElementSiblingBtn});
 // console.log({firstElementChild}, {lastElementChild}, {firstElementChildNextElementSibling}, {lastElementChildPreviousElementSibling});
 
-
 const firstElementChildContent = () => {
     output.innerHTML = firstElementChild;
 }
@@ -39,11 +38,3 @@ const previousElementSiblingContent = () => {
     output.innerHTML = lastElementChildPreviousElementSibling;
 }
 previousElementSiblingBtn.addEventListener("click", previousElementSiblingContent);
-
-
-
-
-// const showContent = (elm) => {
-//     output.innerHTML = elm;
-// }
-// previousElementSiblingBtn.addEventListener("click", showContent(lastElementChildPreviousElementSibling));

@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url(../fonts/Ubuntu-Bold.ttf);
+}
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+:root {
+  --primary-color: rgb(195, 195, 195);
+  --secondary-color: rgb(255, 255, 255);
+  --white-color: rgb(255, 255, 255);
+  --dark-color: rgb(86, 86, 86);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  height: 50vh;
+  background-color: rgb(91, 162, 162);
+  padding: 8rem 0 0 0;
+  margin: 0 0 5rem 0;
+}
+
+article {
+  width: 75rem;
+  height: 18rem;
+  background-color: var(--white-color);
+  border: 2rem solid var(--primary-color);
+  border-radius: 5rem;
+  box-shadow: 5px 5px 10px var(--dark-color);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 2.5rem;
+}
+
+h1,
+p {
+  color: var(--primary-color);
+}
+
+h1 {
+  font-family: "Ubuntu-Bold";
+  font-size: 5rem;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+p {
+  font-family: "Ubuntu-Regular";
+  font-size: 2rem;
+  text-align: center;
+}

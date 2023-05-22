@@ -2,8 +2,8 @@ const body = document.querySelector("body");
 const output = document.querySelector("#demo");
 let count = 0;
 
-const changeBackground = (elm) => {
-    body.style.backgroundColor = elm;
+const changeBackground = (color) => {
+    body.style.backgroundColor = color;
     count++;
     output.innerHTML = `Du hast die Farbe ${count} mal geändert.`;
 }
