@@ -18,10 +18,9 @@ const counter = () => {
     } else if(count == 0){
         console.log("Endlich Feierabend!");
     } else if (count == -1){
-    clearInterval(interval);
-}
-count--;
+        clearInterval(interval);
+    }
+    count--;
 }
 
 let interval = setInterval(counter, 1000);
-
