@@ -1,0 +1,10 @@
+section {
+  height: 100hv;
+  padding: 4rem 2rem 0 2rem;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}

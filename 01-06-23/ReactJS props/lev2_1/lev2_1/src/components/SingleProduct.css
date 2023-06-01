@@ -1,0 +1,21 @@
+article {
+  width: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+button {
+  height: 3rem;
+  width: 15rem;
+  background-color: rgb(221, 122, 122);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}

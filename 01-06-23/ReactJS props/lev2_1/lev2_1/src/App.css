@@ -1,0 +1,25 @@
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(../src/fonts/Poppins-Regular.ttf);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PoppinsRegular";
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+p {
+  font-size: 2rem;
+}
