@@ -1,0 +1,10 @@
+article {
+  width: 25rem;
+  height: 37rem;
+  background-color: rgb(67, 67, 67);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 3rem;
+}
