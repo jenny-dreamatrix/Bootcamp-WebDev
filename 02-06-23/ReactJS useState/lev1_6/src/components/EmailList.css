@@ -1,0 +1,12 @@
+section {
+  width: 50%;
+  height: 30vh;
+  background-color: grey;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+input {
+  height: 2rem;
+  width: 14rem;
+}

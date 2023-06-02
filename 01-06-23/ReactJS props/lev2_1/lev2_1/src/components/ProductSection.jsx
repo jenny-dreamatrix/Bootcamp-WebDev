@@ -30,5 +30,5 @@ let productsArray = [
         </section>
     );
 }
- 
+
 export default ProductSection;
