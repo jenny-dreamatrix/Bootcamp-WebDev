@@ -1,0 +1,6 @@
+.article-sec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6.4rem;
+  padding: 6.8rem 15.6rem;
+}

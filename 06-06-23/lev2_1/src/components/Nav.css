@@ -1,0 +1,25 @@
+nav {
+  height: 7rem;
+  background-color: bisque;
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 3rem 0 0;
+}
+
+a {
+  display: inline-block;
+  height: 6rem;
+  background-color: rgb(141, 243, 243);
+  color: white;
+  padding: 1.7rem 3rem;
+  text-decoration: none;
+  border-radius: 3rem;
+  border: 2px solid pink;
+}
+
+.active {
+  background-color: rgb(59, 173, 173);
+}

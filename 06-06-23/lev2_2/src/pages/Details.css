@@ -1,0 +1,21 @@
+.details-sec {
+  min-height: 120vh;
+  padding: 6.8rem 0 5rem 16rem;
+}
+
+.details-sec img {
+  height: 60rem;
+  border-radius: 1rem 0 0 1rem;
+  margin: 0 0 4.8rem 0;
+}
+
+.details-sec div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 4.8rem 0;
+}
+
+figure {
+  padding: 0 15rem 0 15rem;
+}
