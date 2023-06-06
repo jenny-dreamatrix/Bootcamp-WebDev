@@ -1,5 +1,4 @@
 import ArticleSection from "../components/ArticleSection";
-import BlogData from "../components/BlogData";
 import Nav from "../components/Nav";
 
 const Blog = (props) => {
