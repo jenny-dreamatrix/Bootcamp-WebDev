@@ -51,7 +51,7 @@ for(let i = 0; i <= 10; i++){
         let indexOfFirstNum = neuesArray.indexOf(i)
         let startIndex = indexOfFirstNum + 1
 
-        // weiter suchen
+        // weiter suchen hinter dem ersten Treffer:
         if(neuesArray.indexOf(i, startIndex) !== -1){
             console.log(`die doppelte Zahl lautet ${i}`);
             let indexOfSecondNum = neuesArray.indexOf(i, startIndex)
@@ -74,6 +74,17 @@ export const summe = () => {
     console.log(summe);
 }
 
+// zufällige Zahl zwischen zwei Parametern:
+export const zufall = (a, b) => {
+    if (a < b) {
+        let zufallsZahl = Math.floor(Math.random() * (b - a + 1) + a );
+        console.log(zufallsZahl);
+    } else if (a > b) {
+        let zufallsZahl = Math.floor(Math.random() * (a - b + 1) + b );
+        console.log(zufallsZahl);
+    }
+}
+
 // erster Buchstabe groß:
 export const ersterBuchstabeGross = (string) => {
     let newString = string[0].toUpperCase()
@@ -92,15 +103,3 @@ export const checkBuchstabe = (string, buchstabe) => {
    let indexOfletzterBuchstabe = string.length -1
    console.log(string[indexOfletzterBuchstabe].includes(buchstabe))
 }
-
-// zufällige Zahl zwischen zwei Parametern:
-export const zufall = (a, b) => {
-    if (a < b) {
-        let zufallsZahl = Math.floor(Math.random() * (b - a + 1) + a );
-        console.log(zufallsZahl);
-    } else if (a > b) {
-        let zufallsZahl = Math.floor(Math.random() * (a - b + 1) + b );
-        console.log(zufallsZahl);
-    }
-}
-
