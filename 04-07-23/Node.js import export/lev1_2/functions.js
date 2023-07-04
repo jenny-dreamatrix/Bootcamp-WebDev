@@ -55,7 +55,6 @@ for(let i = 0; i <= 10; i++){
         if(neuesArray.indexOf(i, startIndex) !== -1){
             console.log(`die doppelte Zahl lautet ${i}`);
             let indexOfSecondNum = neuesArray.indexOf(i, startIndex)
-            console.log({indexOfSecondNum});
             neuesArray.splice(indexOfSecondNum, 1)
         }
     }
@@ -68,7 +67,6 @@ export const summe = () => {
     let summe = 0;
 
     for (let i = 0; i < numbers.length; i++){
-        console.log(numbers[i])
         summe += numbers[i]
     }
     console.log(summe);
