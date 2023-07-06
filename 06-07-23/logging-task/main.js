@@ -3,7 +3,7 @@ import { writeLog } from "./lib.js";
 const timeStamp = new Date().toUTCString()
 const userID = Math.floor(Math.random() * 99999999999)
 
-let login = "failed"
+let login = "successful"
 let logMessage;
 let logLevel;
 

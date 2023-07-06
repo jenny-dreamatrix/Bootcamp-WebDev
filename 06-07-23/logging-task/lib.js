@@ -7,25 +7,25 @@ const pathError = new URL("./logs/error.txt", import.meta.url)
 
 export const writeLog = async (logLevel, timeStamp, logMessage) => {
     try{
-        await fs.appendFile(pathLog, logLevel + " :: " + timeStamp + " :: " + logMessage + "\n" )
+        await fs.appendFile(pathLog, logLevel + " :: " + timeStamp + " :: " + logMessage + "\n", {encoding: "utf8"} )
         console.log(`Daten wurden erfolgreich in log.txt geschrieben`);
         if (logLevel === `Info`){
             try {
-                await fs.appendFile(pathInfo, logLevel + " :: " + timeStamp + " :: " + logMessage + "\n" )
+                await fs.appendFile(pathInfo, logLevel + " :: " + timeStamp + " :: " + logMessage + "\n", {encoding: "utf8"} )
                 console.log(`Daten wurden erfolgreich in info.txt geschrieben`);
             } catch (err){
                 console.error(`Fehler beim Schreiben in info.txt: ${err}`);
             }
         } else if (logLevel === `Warn`){
             try {
-                await fs.appendFile(pathWarn, logLevel + " :: " + timeStamp + " :: " + logMessage + "\n" )
+                await fs.appendFile(pathWarn, logLevel + " :: " + timeStamp + " :: " + logMessage + "\n", {encoding: "utf8"} )
                 console.log(`Daten wurden erfolgreich in warn.txt geschrieben`);
             } catch (err){
                 console.error(`Fehler beim Schreiben in warn.txt: ${err}`);
             }
         } else if (logLevel === `Error`){
             try {
-                await fs.appendFile(pathError, logLevel + " :: " + timeStamp + " :: " + logMessage + "\n" )
+                await fs.appendFile(pathError, logLevel + " :: " + timeStamp + " :: " + logMessage + "\n", {encoding: "utf8"} )
                 console.log(`Daten wurden erfolgreich in error.txt geschrieben`);
             } catch (err){
                 console.error(`Fehler beim Schreiben in error.txt: ${err}`);
@@ -35,4 +35,3 @@ export const writeLog = async (logLevel, timeStamp, logMessage) => {
         console.error(`Fehler beim Schreiben in log.txt: ${err}`);
     }
 }
-
