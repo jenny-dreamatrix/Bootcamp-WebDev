@@ -8,8 +8,6 @@ let postsData = []
 
 app.listen(PORT, () => console.log("ich bin ready"))
 
-// app.use()
-
 app.get('/', (req, res) => {
     res.send('Hallo Welt')
     res.end()
@@ -112,7 +110,6 @@ const writingData = async () => {
     })
 }
 writingData()
-
 
 // jetzt benutzen wir die lokale JSON Datei, um Inhalte auszulesen und anzuzeigen
 // die Daten in eine globale Variable speichern
