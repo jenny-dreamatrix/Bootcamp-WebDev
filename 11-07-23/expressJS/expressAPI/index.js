@@ -6,7 +6,7 @@ const PORT = 9898
 const API = `https://jsonplaceholder.typicode.com/posts`
 let postsData = []
 
-app.listen(PORT, () => console.log("ich bin ready"))
+
 
 app.get('/', (req, res) => {
     res.send('Hallo Welt')
@@ -142,6 +142,36 @@ localeData?.map(async (post) => {
 
 // Level 5
 
+// // die IDs starten bei 101 (100 +1)
+// let newId = 100;
+// // Funktion, um ID automatisch hinzuzufügen
+// const getId = (newPost) => {
+//     newId = newId + 1
+//     newPost.id = newId
+// }
+
+// // auslesen des bodys
+// app.use(express.json())
+
+// app.post('/posts', (req, res) => {
+//     // nicht dynamische Version zum Testen:
+//     // const newPost = {userId: 1, title: "dolorem eum magni eos aperiam quia", body: "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspic"}
+    
+//     // dynamisch (der User kann selbst etwas eingeben und das wird ausgelesen):
+//     const { userId, title, body } = req.body
+//     const newPost = {userId, title, body}
+//     getId(newPost)
+//     // in die Variable localeData hinzufügen
+//     localeData.push(newPost)
+//     // in die posts.json Datei hinzufügen
+//     fs.writeFile(pathDataJSON, JSON.stringify(localeData, null, 2), {encoding: "utf8"})
+//     res.json(localeData)
+// })
+
+// ----------------------------------------------------------------
+
+// Level 6
+
 // die IDs starten bei 101 (100 +1)
 let newId = 100;
 // Funktion, um ID automatisch hinzuzufügen
@@ -168,10 +198,5 @@ app.post('/posts', (req, res) => {
     res.json(localeData)
 })
 
-// ----------------------------------------------------------------
 
-// Level 6
-
-
-
-
+app.listen(PORT, () => console.log("ich bin ready"))
